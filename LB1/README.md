@@ -49,7 +49,18 @@ Eine Textnachricht, in diesem Beispiel ein JSON-Objekt, kann verschlüsselt werd
 Verschlüsselt man diese Nachricht mit der PGP Verschlüsslung sieht sie wiefolgt aus:
 
 ```
+-----BEGIN PGP MESSAGE-----
+Version: OpenPGP.js v4.10.10
+Comment: https://openpgpjs.org
 
+wYwDEUUqBfsDqSgBA/47Wz7B/S1kudDDm0S+dISA2DW6aLHT/R1DJzRWerox
+UB09V9STQs9AQQ8DCuM7LrrR3m7pB3E4TpR0W5KYj2BO9Qq7pCA4nvN2fa3V
+V9FHBgFZjQQcIkeuvWUbCbMdCNhaMH8qISrF923T+2pc9bBaWrgepfcerHzd
+RNKuyORkqNJzAdtMQjg2qYFLAqv4tA1GwZG2tW0U22Fd5KtW4QwQDYY6hEDa
+SKWl9Qm5VouY9UA3OdjJlhJemhWneOcrtaDJBICkZWJNo9nds9v7jyYPky1y
+q/xrYN721wWiLgPPd+g2H/UjKScbVmHsSt4H6PD2Ei6GxA==
+=afYX
+-----END PGP MESSAGE-----
 ```
 
 Diese nachricht kann nur von einer Person gelesen werden welche über den private key verfügt. Heisst sie kann inhaltlich nich verändert werden, aber auch wenn sie verändert wird, kann sie nicht mehr entschlüsselt werden und so kann die integrität sichergestellt werden.
