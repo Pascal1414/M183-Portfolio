@@ -46,7 +46,7 @@ Eine Textnachricht, in diesem Beispiel ein JSON-Objekt, kann verschlüsselt werd
 }
 ```
 
-Verschlüsselt man diese Nachricht mit der PGP Verschlüsslung und irgendeinem public key sieht sie wiefolgt aus:
+Verschlüsselt man diese Nachricht mit der PGP Verschlüsslung und irgendeinem Public Key sieht sie wie folgt aus:
 
 ```
 -----BEGIN PGP MESSAGE-----
@@ -63,7 +63,7 @@ q/xrYN721wWiLgPPd+g2H/UjKScbVmHsSt4H6PD2Ei6GxA==
 -----END PGP MESSAGE-----
 ```
 
-Diese nachricht kann nur von einer Person gelesen werden welche über den private key verfügt. Heisst sie kann inhaltlich nich verändert werden, aber auch wenn sie verändert wird, kann sie nicht mehr entschlüsselt werden und so kann die integrität sichergestellt werden.
+Diese Nachricht kann nur von einer Person gelesen werden welche über den Private Key verfügt. Heisst sie kann inhaltlich nicht verändert werden, aber auch wenn sie verändert wird, kann sie nicht mehr entschlüsselt werden und so kann die Integrität sichergestellt werden.
 
 ## Resultate, Erkenntnisse
 
