@@ -14,7 +14,9 @@ CWE – Common Weakness Enumeration. CWE & OWASP Top 10 hängen damit zusammen d
 
 Verwenden sie digitale Signaturen, um die Authentizität zu überprüfen.
 
-### Beispiel in Node.js app
+### Softwareintegrität
+
+#### Beispiel in Node.js app
 
 ```json
 "packages":{
@@ -26,11 +28,31 @@ Verwenden sie digitale Signaturen, um die Authentizität zu überprüfen.
 }
 ```
 
-### Beispiel Arch installation
+#### Beispiel Arch installation
 
 ![Arch checksum](src/arch-checksum.png)
 
-Package-lock.json in einer
+### Datenintegrität
+
+#### Beispiel json
+
+Eine Textnachricht, in diesem Beispiel ein JSON-Objekt, kann verschlüsselt werden, um die Integrität zu gewährleisten. So kann sichergestellt werden, dass die Nachricht nicht manipuliert wurde, das sie sonst nicht mer entschlüsselt werden könnte.
+
+```json
+{
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+}
+```
+
+Verschlüsselt man diese Nachricht mit der PGP Verschlüsslung sieht sie wiefolgt aus:
+
+```
+
+```
+
+Diese nachricht kann nur von einer Person gelesen werden welche über den private key verfügt. Heisst sie kann inhaltlich nich verändert werden, aber auch wenn sie verändert wird, kann sie nicht mehr entschlüsselt werden und so kann die integrität sichergestellt werden.
 
 ## Resultate, Erkenntnisse
 
