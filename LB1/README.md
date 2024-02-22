@@ -46,7 +46,7 @@ Eine Textnachricht, in diesem Beispiel ein JSON-Objekt, kann verschlüsselt werd
 }
 ```
 
-Verschlüsselt man diese Nachricht mit der PGP Verschlüsslung sieht sie wiefolgt aus:
+Verschlüsselt man diese Nachricht mit der PGP Verschlüsslung und irgendeinem public key sieht sie wiefolgt aus:
 
 ```
 -----BEGIN PGP MESSAGE-----
