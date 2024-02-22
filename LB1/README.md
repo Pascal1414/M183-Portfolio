@@ -14,6 +14,8 @@ CWE – Common Weakness Enumeration. CWE & OWASP Top 10 hängen damit zusammen d
 
 Verwenden sie digitale Signaturen, um die Authentizität zu überprüfen.
 
+### Beispiel in Node.js app
+
 ```json
 "packages":{
     "node_modules/@esbuild/win32-arm64"{
@@ -23,6 +25,10 @@ Verwenden sie digitale Signaturen, um die Authentizität zu überprüfen.
     }
 }
 ```
+
+### Beispiel Arch installation
+
+![Arch checksum](src/arch-checksum.png)
 
 Package-lock.json in einer
 
