@@ -2,6 +2,8 @@
 
 ## Überblick
 
+Wenn ein Benutzer eine Software oder Daten herunterlädt, muss sichergestellt werden, dass diese, nachdem sie vom Server gesendet wurden und beim Client ankommen, nicht manipuliert wurden. Man stelle sich vor was für ein Schaden angerichtet werden könnte, wenn ein Betriebssystem, welches ein wichtiges Unternehmen installiert, eine von Hackern manipulierte Version ist. Zudem sollen Daten, welche über das Internet übertragen werden, nicht manipuliert werden können. Empfängt ein Benutzer modifizierte Daten, kann damit ebenfalls einen grossen Schaden angerichtet werden.
+
 ## Erläuterung zu Aufgabe 3 und 4
 
 CWE – Common Weakness Enumeration. CWE & OWASP Top 10 hängen damit zusammen das OWASP eine Auflistung der häufigsten Sicherheitslücken ist.
