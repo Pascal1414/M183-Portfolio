@@ -7,10 +7,12 @@ Wenn ein Benutzer eine Software oder Daten herunterlädt, muss sichergestellt we
 ## Erläuterung zu Aufgabe 3 und 4
 
 ### Aufgabe 3
-CWE – Common Weakness Enumeration. CWE & OWASP Top 10 hängen damit zusammen das beide eine Art Auflistung der häufigsten Sicherheitslücken ist.
+CWE – Common Weakness Enumeration. CWE & OWASP Top 10 hängen damit zusammen das beide eine Art Auflistung der häufigsten Sicherheitslücken sind.
+
+CWE ist eine Auflistung von Sicherheitsschwachstellen, die in Software, Hardware und Firmware auftreten können. CWE ist gut dafür geeignet standatisierte Methoden für die Kategoriserung und Beschreibung der Schwachstellen, dies hilft dabei diese besser zu kommunizieren und zu verstehen.
 
 ### Aufgabe 4
-OWASP Top 10 Risk sind die häufigsten Risiken und OWASP Proactive Controls ist die auflistung von möglichen Massnahmen die die Risiken hemmen oder beseitigen sollen.
+OWASP Top 10 Risk sind die häufigsten Risiken und OWASP Proactive Controls ist die auflistung von möglichen Massnahmen die die Risiken von Anfang an hemmen oder beseitigen sollen.
 
 
 ## Theoretische Hintergründe
