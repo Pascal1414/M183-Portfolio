@@ -8,13 +8,19 @@ CWE – Common Weakness Enumeration. CWE & OWASP Top 10 hängen damit zusammen d
 
 ## Theoretische Hintergründe
 
+### Softwareintegrität
+
+Um die Integrität einer Software zu gewähren kann ein Checksum verwendet werden. Diese Checksumme wird bei der Installation der Software berechnet und mit der Checksumme des Herstellers verglichen. So kann sichergestellt werden, dass die Software nicht manipuliert wurde.
+
+### Datenintegrität
+
+Um die Integrität von Daten zu gewährleisten kann eine Verschlüsselung verwendet werden. So kann sichergestellt werden, dass die Daten nicht manipuliert wurden. Zudem können die Daten nur von Personen gelesen werden, welche über den Private Key verfügen.
+
 ## Schwachstelle mit Codebeispiel
 
 ## Massnahmen mit Codebeispiel
 
 ### Softwareintegrität
-
-Um die Integrität einer Software zu gewähren kann ein Checksum verwendet werden. Diese Checksumme wird bei der Installation der Software berechnet und mit der Checksumme des Herstellers verglichen. So kann sichergestellt werden, dass die Software nicht manipuliert wurde.
 
 #### Beispiel in Node.js app
 
