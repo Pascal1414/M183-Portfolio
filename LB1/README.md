@@ -12,11 +12,13 @@ CWE – Common Weakness Enumeration. CWE & OWASP Top 10 hängen damit zusammen d
 
 ## Massnahmen mit Codebeispiel
 
-Verwenden sie digitale Signaturen, um die Authentizität zu überprüfen.
-
 ### Softwareintegrität
 
+Um die Integrität einer Software zu gewähren kann ein Checksum verwendet werden. Diese Checksumme wird bei der Installation der Software berechnet und mit der Checksumme des Herstellers verglichen. So kann sichergestellt werden, dass die Software nicht manipuliert wurde.
+
 #### Beispiel in Node.js app
+
+Dies wird wenn ein Package zu einer App hinzugefügt wird von npm automatisch gemacht. Wird dann `npm install` ausgeführt wird die Checksumme des Herstellers mit dem von npm heruntergeladenen Package verglichen.
 
 ```json
 "packages":{
@@ -63,8 +65,10 @@ q/xrYN721wWiLgPPd+g2H/UjKScbVmHsSt4H6PD2Ei6GxA==
 -----END PGP MESSAGE-----
 ```
 
-Diese Nachricht kann nur von einer Person gelesen werden welche über den Private Key verfügt. Heisst sie kann inhaltlich nicht verändert werden, aber auch wenn sie verändert wird, kann sie nicht mehr entschlüsselt werden und so kann die Integrität sichergestellt werden.
+Diese Nachricht kann nur von einer Person gelesen werden welche über den Private Key verfügt. Heisst sie kann inhaltlich nicht verändert werden, so kann die Integrität sichergestellt werden.
 
 ## Resultate, Erkenntnisse
 
 ## Quellen
+
+[Owasp Top 10 - A08 Software and Data Integrity Failures](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/)
