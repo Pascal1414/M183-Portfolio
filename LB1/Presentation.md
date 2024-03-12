@@ -1,24 +1,41 @@
 # Presentation
 
-## Einführung
+## Was ist das Problem
 
-### Um was geht es?
+Wenn Daten über das internet übertragen werden könnten diese unterwegs von dritten verändert werden. Dies gilt es zu vermeiden.
 
-- Softwareintegrität erklären
+## Man kann unterscheiden zwischen Softwareintegrität und Datenintegrität
 
-- Datenintegrität erklären
+### Softwareintegrität
 
-### Warum ist das wichtig?
+Software wie Programme oder Betriebssysteme welche aus dem Internet heruntergeladen werden.
 
-- Installation von modifizierter Software
-- Verändern von Daten
+### Datenintegrität
 
-### Beispiele von Massnahmen
+Allgemeine Daten welche im Internet herumgeschickt werden. z.B. Nachrichten.
 
-- Checksumme
-  1. File downloaden: [link]()
-  2. Verify Checksum
-  ```bash
-  Command to verify
-  ```
-- PGP
+## Warum ist das wichtig?
+
+- Installation von modifizierter Software verhindern
+- Verändern von Daten verhindern
+
+## Beispiel Checksumme
+
+1. File Downloaden -> `DownloadedFile.exe`
+2. Checksum generieren (Powershell)
+
+```powershell
+certutil -hashfile "DownloadedFile.exe" md5
+# or
+certutil -hashfile "DownloadedFile.exe" sha1
+# or
+certutil -hashfile "DownloadedFile.exe" sha256
+# or
+certutil -hashfile "DownloadedFile.exe" sha384
+# or
+certutil -hashfile "DownloadedFile.exe" sha512
+```
+
+3. Checksum mit herstellerwebseite vergleichen.
+
+## Beispiel PGP
