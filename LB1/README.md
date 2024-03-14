@@ -2,7 +2,7 @@
 
 ## Überblick
 
-Wenn ein Benutzer eine Software oder Daten herunterlädt, muss sichergestellt werden, dass diese, nachdem sie vom Server gesendet wurden und beim Client ankommen, nicht manipuliert wurden. Man stelle sich vor was für ein Schaden angerichtet werden könnte, wenn ein Betriebssystem, welches ein wichtiges Unternehmen installiert, eine von Hackern manipulierte Version ist. Zudem sollen Daten, welche über das Internet übertragen werden, nicht manipuliert werden können. Empfängt ein Benutzer zum Beispiel eine modifizierte Nachricht, kann damit ebenfalls Schaden angerichtet werden.
+Wenn ein Benutzer eine Software oder Daten herunterlädt, muss sichergestellt werden, dass diese, nachdem sie vom Server gesendet wurden und beim Client ankommen, nicht manipuliert wurden. Man stelle sich vor was für ein Schaden angerichtet werden könnte, wenn ein Betriebssystem, welches ein wichtiges Unternehmen installiert, eine von Hackern manipulierte Version ist. Zudem sollen Daten, welche über das Internet übertragen werden, nicht manipuliert werden können. Empfängt ein Benutzer zum Beispiel eine modifizierte Nachricht, kann damit ebenfalls Schaden angerichtet werden. Dabei geht es um den sogenannten Man-In-The-Middle Angriff zu verhindern.
 
 ## Erläuterung zu Aufgabe 3 und 4
 
