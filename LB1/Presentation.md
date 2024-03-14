@@ -19,6 +19,12 @@ Allgemeine Daten welche im Internet herumgeschickt werden. z.B. Nachrichten.
 - Installation von modifizierter Software verhindern
 - Verändern von Daten verhindern
 
+## Datenintegrität -> PGP-Verschlüsselung
+
+Der Absender verschlüsselt die Nachricht mit public Key.
+
+Der Empfänger entschlüsselt die Nachricht dann mit private key.
+
 ## Beispiel Checksumme
 
 1. File Downloaden -> `DownloadedFile.exe`
@@ -37,5 +43,3 @@ certutil -hashfile "DownloadedFile.exe" sha512
 ```
 
 3. Checksum mit herstellerwebseite vergleichen.
-
-## Beispiel PGP
